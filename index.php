@@ -66,46 +66,20 @@
                 <div class="aplikasi">
                     <div class="row">
                         <!-- kolom 1 -->
-                        <div class="col-md-3 col-sm-6 justify-content-center align-items-center">
-                            <div class="box">
-                                <div class="hexagon">
-
-                                </div>
-                                <div class="box-content">
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- kolom 2 -->
                         <div class="col-md-3 col-sm-6">
                             <div class="box">
-                                <div class="hexagon">
-
+                                <div class="hexagon-shadow">
+                                        <div class="hexagon position-absolute top-50 start-50 translate-middle">
+                                            <img src="assets/icon/icon_E-Procurement.svg" alt="">
+                                        </div>
                                 </div>
                                 <div class="box-content">
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- kolom 3 -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="box">
-                                <div class="hexagon">
-
-                                </div>
-                                <div class="box-content">
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- kolom 4 -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="box">
-                                <div class="hexagon">
-
-                                </div>
-                                <div class="box-content">
-
+                                    <div class="details">
+                                        <h5>E-Procurement</h5>
+                                        <p class="mt-3">
+                                            Aplikasi Pengadaan Barang dan Jasa asdasd
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
