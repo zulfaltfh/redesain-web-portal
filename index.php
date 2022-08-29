@@ -49,7 +49,7 @@
                                     <i class="bi bi-chevron-down ms-3"></i>
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Semua Aplikasi</a></li>
+                                    <li><a class="dropdown-item" href="index.php">Semua Aplikasi</a></li>
                                     <li><a class="dropdown-item" href="#">Direktorat Utama</a></li>
                                     <li><a class="dropdown-item" href="#">Direktorat Keuangan</a></li>
                                     <li><a class="dropdown-item" href="#">Direktorat Operasi</a></li>
@@ -65,30 +65,224 @@
                 </div>
                 <div class="aplikasi">
                     <div class="row">
-                        <!-- kolom 1 -->
-                        <div class="col-md-3 col-sm-6">
+                        <!-- e-procurement 1 -->
+                        <div class="col-lg-3 col-md-6">
                             <div class="box">
-                                <div class="hexagon-shadow">
-                                        <div class="hexagon position-absolute top-50 start-50 translate-middle">
-                                            <img src="assets/icon/icon_E-Procurement.svg" alt="">
-                                        </div>
+                                <div class="icon-aplikasi position-absolute start-50 translate-middle">
+                                    <div class="icon">
+                                        <img src="assets/icon/icon_E-Procurement.svg" alt="">
+                                    </div>
                                 </div>
-                                <div class="box-content">
-                                    <div class="details">
+                                <div class="box-content overflow-hidden">
+                                    <div class="details text-center">
                                         <h5>E-Procurement</h5>
-                                        <p class="mt-3">
-                                            Aplikasi Pengadaan Barang dan Jasa asdasd
-                                        </p>
+                                        <p>Aplikasi pengadaan barang dan jasa</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- kompetensi -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box">
+                                <div class="icon-aplikasi position-absolute start-50 translate-middle">
+                                    <div class="icon">
+                                        <img src="assets/icon/icon_E-Procurement.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="box-content overflow-hidden">
+                                    <div class="details text-center">
+                                        <h5>Kompetensi</h5>
+                                        <p>Aplikasi pelatihan kompetensi internal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- bengkel meter -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box">
+                                <div class="icon-aplikasi position-absolute start-50 translate-middle">
+                                    <div class="icon">
+                                        <img src="assets/icon/icon_E-Procurement.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="box-content overflow-hidden">
+                                    <div class="details text-center">
+                                        <h5>Bengkel Meter</h5>
+                                        <p>Aplikasi catat meter dan tera meter</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- workflow doc -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box">
+                                <div class="icon-aplikasi position-absolute start-50 translate-middle">
+                                    <div class="icon">
+                                        <img src="assets/icon/icon_E-Procurement.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="box-content overflow-hidden">
+                                    <div class="details text-center">
+                                        <h5>Workflow Document</h5>
+                                        <p>Aplikasi surat menyurat internal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- tata naskah tu -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box">
+                                <div class="icon-aplikasi position-absolute start-50 translate-middle">
+                                    <div class="icon">
+                                        <img src="assets/icon/icon_E-Procurement.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="box-content overflow-hidden">
+                                    <div class="details text-center">
+                                        <h5>Tata Naskah TU</h5>
+                                        <p>Tata naskah administrasi perusahaan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- arsip hukum -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box">
+                                <div class="icon-aplikasi position-absolute start-50 translate-middle">
+                                    <div class="icon">
+                                        <img src="assets/icon/icon_arsip_hukum.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="box-content overflow-hidden">
+                                    <div class="details text-center">
+                                        <h5>Arsip Hukum</h5>
+                                        <p>Arsip dokumen hukum perusahaan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- tsi -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box">
+                                <div class="icon-aplikasi position-absolute start-50 translate-middle">
+                                    <div class="icon">
+                                        <img src="assets/icon/" alt="">
+                                    </div>
+                                </div>
+                                <div class="box-content overflow-hidden">
+                                    <div class="details text-center">
+                                        <h5>TSI</h5>
+                                        <p>Aplikasi pengaduan layanan TI</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- monitoring pengaduan -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box">
+                                <div class="icon-aplikasi position-absolute start-50 translate-middle">
+                                    <div class="icon">
+                                        <img src="assets/icon/icon_monitoring_pengaduan.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="box-content overflow-hidden">
+                                    <div class="details text-center">
+                                        <h5>Monitoring Pengaduan</h5>
+                                        <p>Aplikasi pemantauan pelayanan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- data pelanggan -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box">
+                                <div class="icon-aplikasi position-absolute start-50 translate-middle">
+                                    <div class="icon">
+                                        <img src="assets/icon/icon_E-Procurement.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="box-content overflow-hidden">
+                                    <div class="details text-center">
+                                        <h5>Data Pelanggan</h5>
+                                        <p>Sistem informasi data pelanggan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- analisa pemakaian air -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box">
+                                <div class="icon-aplikasi position-absolute start-50 translate-middle">
+                                    <div class="icon">
+                                        <img src="assets/icon/icon_Pemakaian_Air.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="box-content overflow-hidden">
+                                    <div class="details text-center">
+                                        <h5>Analisa Pemakaian Air</h5>
+                                        <p>Aplikasi pemakaian air pelanggan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pengolahan Air -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box">
+                                <div class="icon-aplikasi position-absolute start-50 translate-middle">
+                                    <div class="icon">
+                                        <img src="assets/icon/icon_E-Procurement.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="box-content overflow-hidden">
+                                    <div class="details text-center">
+                                        <h5>Pengolahan & Rumah Pompa</h5>
+                                        <p>Pengolahan IPAM dan rumah pompa</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Penertiban -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box">
+                                <div class="icon-aplikasi position-absolute start-50 translate-middle">
+                                    <div class="icon">
+                                        <img src="assets/icon/icon_Penertiban.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="box-content overflow-hidden">
+                                    <div class="details text-center">
+                                        <h5>Aplikasi Penertiban</h5>
+                                        <p>Aplikasi Penertiban Tutup Dinas</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="copyright py-4">
+              &copy;2022 Copyright PDAM Surya Sembada Surabaya. All Rights Reserved
+            </div>
+        </div>
+    </footer>
 
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
