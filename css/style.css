@@ -9,9 +9,6 @@
     --lightblue:#3ABFEF;
     --green:#AFD137;
 }
-*{
-    box-sizing: border-box;
-}
 
 body{
     height: 100%;
@@ -101,12 +98,29 @@ h1, h2, h3, h4, h5, h6{
 /* Content */
 
 .heading{
-    margin-top: 15%;
+    position: relative; 
+    display: flex;
+    margin-top: 10%;
 }
+
+.heading::before{
+    content: "";
+    background-image: url("../assets/images/background-aplikasi.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
 .heading .head-kategori .line {
     background-color: var(--dark-blue);
     width: 100px;
-    height: 2px;
+    height: 3px;
     display: block;
     align-content: center;
 }
@@ -162,87 +176,145 @@ h1, h2, h3, h4, h5, h6{
 
 /* Daftar Aplikasi */
 .aplikasi{
-    background-image: url();
-    margin-top: 10%;
+    margin-top: 96px;
 }
 
-.aplikasi .col-lg-3,
-.aplikasi .col-md-6{
-    margin-bottom: 9%;
+.aplikasi .navigation{
+    margin-bottom: 40px;
+}
+
+.aplikasi .navigation a{
+    font-size: 20px;
+    color: var(--dark-blue);
+    word-spacing: 4px;
+    text-decoration: none;
+}
+
+.aplikasi .col-md-3,
+.aplikasi .col-sm-6{
+    align-items: center;
+    margin-bottom: 56px;
 }
 
 .aplikasi .box{
     position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
     width: 100%;
-    height: 120px;
+    height: 124px;
+    /* height: 179px; */
     border-radius: 15px;
     background-color: #ffffff;
-    box-shadow: 0 4px 12px rgba(26, 26, 26, 0.062);
-    transition: 0.2s;
+    padding: 0 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 18px rgba(26, 26, 26, 0.055);
+    transition: 0.3s;
 }
 
 .aplikasi .box:hover{
     height: 179px;
     background-color: var(--dark-blue);
-    box-shadow: 0px 4px 8px rgba(42, 131, 198, 0.32);
+    color: #ffffff;
+    box-shadow: 0px 6px 8px rgba(42, 131, 198, 0.32);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
-/* icon */
-.box .icon-aplikasi{
-    filter: drop-shadow(0px 2px 8px rgba(26, 26, 26, 0.082));
-}
-
-.box:hover .icon-aplikasi{
-    filter: drop-shadow(0px 2px 8px rgba(42, 130, 198, 0.178));
-}
-
-.box .icon-aplikasi .icon{
+.aplikasi .box .hexagon{
+    position: absolute;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background: #ffffff;
+    align-items: center;
+    background: #ffff;
     width: 100px;
     height: 110px;
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
 }
 
-.box .icon-aplikasi .icon img{
-    justify-content: center;
-    max-width: 60px;
-    max-height: 60px;
+
+.aplikasi .box .hexagon img{
+    position: absolute;
+    object-fit: cover;
+    width: 65px;
+}
+
+.aplikasi .box .hexagon-shadow{
+    filter: drop-shadow(0px 5px 10px rgba(42, 131, 198, 0.08)); 
 }
 
 .box .box-content{
-    position: absolute;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    overflow: hidden;
 }
 
-.box .box-content .details{
-    padding: 80px 12px 16px;
-    width: 100%;
-    transition: 0s;
-    transform: translateY(55px);
+.box .box-content h5{
+    padding-top: 77px;
+    font-size: 18px;
 }
 
-.box:hover .box-content .details{
-    transform: translateY(0px);
-    color: #fff;
+.box .box-content p{
+    font-size: 14px;
+    margin-top: 22px;
 }
 
-.box .box-content .details h5{
-    font-size: 16px;
-    margin-bottom: 12px;
+
+/* FOOTER */
+footer {
+    margin-top: 200px;
+    text-align: center;
+    color: #2E4A9B;
+    font-weight: bolder
 }
 
-.box .box-content .details p{
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2E4A9B' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2E4A9B' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-indicators .inactive {
+    background-color: gray;
+}
+.carousel-indicators .active {
+    background-color: #2E4A9B
+}
+/* 
+
+.hex {
+    width: max-content;
+    margin-bottom: -20px;
+    z-index: 2;
+}
+
+.box1 {
+    width: 0px;
+    border-bottom: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
+.box2 {
+    width: 104px;
+    height: 60px;
+    background-color: #6C6;
+}
+
+.box2 img {
+    position: absolute;
+    object-fit: cover;
+    width: 65px;
+
+}
+
+.box3 {
+    width: 0px;
+    border-top: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+} */
+
     
-}
-
-/* footer */
-footer{
-    color: var(--dark-blue);
-}
