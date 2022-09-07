@@ -57,7 +57,7 @@
                             </div>
                             <div class="search py-2 px-4">
                                 <button id="button" class="pe-2"><i class="bi-search"></i></button>
-                                <input type="text" id="input" maxlength="200" width="200" placeholder="Cari aplikasi disini..">
+                                <input type="text" id="input" maxlength="200" width="200" onkeyup="myFunction()" placeholder="Cari aplikasi disini..">
                             </div>
                         </div>
                     </div>
@@ -74,102 +74,114 @@
                         <div class="row" style="margin-top: 55px;">
                             <!-- kolom 1 -->
                             <div class="col-md-3 col-sm-6">
-                                <div class="box">
-                                    <div class="hexagon-shadow">
-                                        <div class="hexagon position-absolute top-50 start-50 translate-middle">
-                                            <img src="assets/icon/icon_Pengolahan_Air.svg" alt="">
+                                <a href="https://ipam.pdam-sby.go.id/login" target="_blank" rel="noopener noreferrer">
+                                    <div class="box">
+                                        <div class="hexagon-shadow">
+                                            <div class="hexagon position-absolute top-50 start-50 translate-middle">
+                                                <img src="assets/icon/icon_Pengolahan_Air.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="details">
+                                                <h5>Aplikasi Pengolahan</h5>
+                                                <p>Deskripsi tentang aplikasi dan kegunaan</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="box-content">
-                                        <div class="details">
-                                            <h5>Aplikasi Pengolahan</h5>
-                                            <p>Deskripsi tentang aplikasi dan kegunaan</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <!-- kolom 2 -->
                             <div class="col-md-3 col-sm-6">
-                                <div class="box">
-                                    <div class="hexagon-shadow">
-                                        <div class="hexagon position-absolute top-50 start-50 translate-middle">
-                                            <img src="assets/icon/icon_Pengendalian_Proses.svg" alt="">
+                                <a href="https://web-portal.pdam-sby.go.id/app/pengendalian_proses/" target="_blank" rel="noopener noreferrer">
+                                    <div class="box">
+                                        <div class="hexagon-shadow">
+                                            <div class="hexagon position-absolute top-50 start-50 translate-middle">
+                                                <img src="assets/icon/icon_Pengendalian_Proses.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="details">
+                                                <h5>Pengendalian Proses</h5>
+                                                <p>Deskripsi tentang aplikasi dan kegunaan</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="box-content">
-                                        <div class="details">
-                                            <h5>Pengendalian Proses</h5>
-                                            <p>Deskripsi tentang aplikasi dan kegunaan</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <!-- kolom 3 -->
                             <div class="col-md-3 col-sm-6">
-                                <div class="box">
-                                    <div class="hexagon-shadow">
-                                        <div class="hexagon position-absolute top-50 start-50 translate-middle">
-                                            <img src="assets/icon/icon_Manajemen_Asset.svg" alt="">
+                                <a href="http://asset-svr.pdam-sby.go.id/" target="_blank" rel="noopener noreferrer">
+                                    <div class="box">
+                                        <div class="hexagon-shadow">
+                                            <div class="hexagon position-absolute top-50 start-50 translate-middle">
+                                                <img src="assets/icon/icon_Manajemen_Asset.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="details">
+                                                <h5>Manajemen Aset</h5>
+                                                <p>Deskripsi tentang aplikasi dan kegunaan</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="box-content">
-                                        <div class="details">
-                                            <h5>Manajemen Aset</h5>
-                                            <p>Deskripsi tentang aplikasi dan kegunaan</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <!-- kolom 4 -->
                             <div class="col-md-3 col-sm-6">
-                                <div class="box">
-                                    <div class="hexagon-shadow">
-                                        <div class="hexagon position-absolute top-50 start-50 translate-middle">
-                                            <img src="assets/icon/icon_Pengaduan_Pemeliharaan.svg" alt="">
+                                <a href="https://web-portal.pdam-sby.go.id/app/monitoring_pengaduan/" target="_blank" rel="noopener noreferrer">
+                                    <div class="box">
+                                        <div class="hexagon-shadow">
+                                            <div class="hexagon position-absolute top-50 start-50 translate-middle">
+                                                <img src="assets/icon/icon_Pengaduan_Pemeliharaan.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="details">
+                                                <h5>Pengaduan Pemeliharaan</h5>
+                                                <p>Deskripsi tentang aplikasi dan kegunaan</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="box-content">
-                                        <div class="details">
-                                            <h5>Pengaduan Pemeliharaan</h5>
-                                            <p>Deskripsi tentang aplikasi dan kegunaan</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <!-- Baris 2 -->
-                        <div class="row">
+                        <div class="row"  id="myRow"> 
                             <!-- kolom 5 -->
                             <div class="col-md-3 col-sm-6">
-                                <div class="box">
-                                    <div class="hexagon-shadow">
-                                        <div class="hexagon position-absolute top-50 start-50 translate-middle">
-                                            <img src="assets/icon/icon_e-rab.svg" alt="">
+                                <a href="https://e-rab.pdam-sby.go.id/auth/login" target="_blank" rel="noopener noreferrer">
+                                    <div class="box">
+                                        <div class="hexagon-shadow">
+                                            <div class="hexagon position-absolute top-50 start-50 translate-middle">
+                                                <img src="assets/icon/icon_e-rab.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="details">
+                                                <h5>E-RAB</h5>
+                                                <p>Deskripsi tentang aplikasi dan kegunaan</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="box-content">
-                                        <div class="details">
-                                            <h5>E-RAB</h5>
-                                            <p>Deskripsi tentang aplikasi dan kegunaan</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <!-- kolom 6 -->
                             <div class="col-md-3 col-sm-6">
-                                <div class="box">
-                                    <div class="hexagon-shadow">
-                                        <div class="hexagon position-absolute top-50 start-50 translate-middle">
-                                            <img src="assets/icon/icon_SILAB.svg" alt="">
+                                <a href="https://silab.pdam-sby.go.id/" target="_blank" rel="noopener noreferrer">
+                                    <div class="box">
+                                        <div class="hexagon-shadow">
+                                            <div class="hexagon position-absolute top-50 start-50 translate-middle">
+                                                <img src="assets/icon/icon_SILAB.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="details">
+                                                <h5>Silab</h5>
+                                                <p>Deskripsi tentang aplikasi dan kegunaan</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="box-content">
-                                        <div class="details">
-                                            <h5>Silab</h5>
-                                            <p>Deskripsi tentang aplikasi dan kegunaan</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                             <!-- kolom 7 -->
                             <div class="col-md-3 col-sm-6" style="visibility: hidden;">
@@ -278,7 +290,7 @@
     </main>
     
     <footer>
-<p>2022 Copyright - TSI PDAM Surya Sembad</p> 
+        <p>2022 Copyright - TSI PDAM Surya Sembad</p> 
     </footer>
 
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
