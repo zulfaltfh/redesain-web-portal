@@ -9,17 +9,18 @@
     --lightblue:#3ABFEF;
     --green:#AFD137;
 }
+*{
+    font-family: 'Roboto', sans-serif;
+}
 
 body{
     height: 100%;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
 }
 
-p{
+/* p{
     font-family: 'Roboto', sans-serif;
-}
+} */
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Inter', sans-serif;
@@ -109,7 +110,7 @@ h1, h2, h3, h4, h5, h6{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position: absolute;
+    position:absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -291,7 +292,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .box .box-content p{
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 22px;
 }
 
@@ -301,7 +302,8 @@ footer {
     margin-top: 200px;
     text-align: center;
     color: #2E4A9B;
-    font-weight: bolder
+    font-size: 18px;
+    font-weight:500;
 }
 
 .carousel-control-prev-icon {
@@ -313,7 +315,7 @@ footer {
 }
 
 .carousel-indicators .inactive {
-    background-color: gray;
+    background-color: rgb(170, 170, 170);
 }
 .carousel-indicators .active {
     background-color: #2E4A9B
