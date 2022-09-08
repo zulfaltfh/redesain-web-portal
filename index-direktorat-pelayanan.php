@@ -73,7 +73,7 @@
                     <!-- Halaman 1 -->
                     <div class="carousel-item active">
                         <!-- Baris 1 -->
-                        <div class="row" style="margin-top: 40px;">
+                        <div class="row" style="margin-top: 72px;">
                             <!-- kolom 1 -->
                             <div class="col-md-3 col-sm-6">
                                 <a href="https://web-portal.pdam-sby.go.id/app/cek_data_plg/" target="_blank" rel="noopener noreferrer">
