@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5, h6{
 .aplikasi .col-md-3,
 .aplikasi .col-sm-6 a{
     text-decoration: none;
-    color: var(--dark-blue);
+    color: var(--black);
 }
 
 .aplikasi .box{
@@ -319,6 +319,11 @@ footer {
 }
 .carousel-indicators .active {
     background-color: #2E4A9B
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    height: 125%;
 }
 /* 
 
