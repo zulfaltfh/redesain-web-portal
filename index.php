@@ -48,16 +48,16 @@
                                         <a class="nav-link" href="#">Semua</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index-direktorat-utama.html">Direktorat Utama</a>
+                                        <a class="nav-link" href="index-direktorat-utama.php">Direktorat Utama</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index-direktorat-operasi.html">Direktorat Operasi</a>
+                                        <a class="nav-link" href="index-direktorat-operasi.php">Direktorat Operasi</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index-direktorat-keuangan.html">Direktorat Keuangan</a>
+                                        <a class="nav-link" href="index-direktorat-keuangan.php">Direktorat Keuangan</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index-direktorat-pelayanan.html">Direktorat Pelayanan</a>
+                                        <a class="nav-link" href="index-direktorat-pelayanan.php">Direktorat Pelayanan</a>
                                     </li>
                                 </ul>                                
                             </div>
@@ -67,7 +67,7 @@
                 <div class="aplikasi">
 
                     <!-- <div class="navigation">
-                        <a href="index.html">Beranda </a> 
+                        <a href="index.php">Beranda </a> 
                         <a> > </a>
                         <a href="#"> </a>
                     </div> -->
